@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "text": "# Guest registration",
+      "type": "text",
+      "layout": {
+        "row": "Row_0wlocve",
+        "columns": null
+      },
+      "id": "Field_0gr2e4e"
+    },
+    {
+      "label": "Guest",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0axsmfx",
+        "columns": null
+      },
+      "id": "Field_1ttscuf",
+      "key": "guest",
+      "defaultValue": "Zee"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Birthday",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_15srbfb",
+        "columns": null
+      },
+      "id": "Field_02h4bkj",
+      "key": "guestBirthday"
+    },
+    {
+      "label": "ID card",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0helpyo",
+        "columns": null
+      },
+      "id": "Field_19u9n7h",
+      "key": "guestIdCard",
+      "defaultValue": "125Z23EE92"
+    }
+  ],
+  "type": "default",
+  "id": "hotel-registration",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.30.0"
+  },
+  "schemaVersion": 17
+}

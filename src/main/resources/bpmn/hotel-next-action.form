@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "text": "# Decide on the next action",
+      "type": "text",
+      "layout": {
+        "row": "Row_1jn8b0x",
+        "columns": null
+      },
+      "id": "Field_0e6zro0"
+    },
+    {
+      "label": "Guest",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ut1ezx",
+        "columns": null
+      },
+      "id": "Field_03ynrlm",
+      "key": "guest",
+      "readonly": true
+    },
+    {
+      "label": "Failure",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0l962eg",
+        "columns": null
+      },
+      "id": "Field_0g9hzks",
+      "key": "failure",
+      "readonly": true
+    },
+    {
+      "label": "Choose an action",
+      "type": "checklist",
+      "layout": {
+        "row": "Row_11swv5h",
+        "columns": null
+      },
+      "id": "Field_13uzfeh",
+      "key": "selectedActions",
+      "valuesExpression": "=possibleActions"
+    }
+  ],
+  "type": "default",
+  "id": "hotel-next-action",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.30.0"
+  },
+  "schemaVersion": 17
+}
